@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar{
+    display:flex;
+    background-color:black;
+    color:white;
+    padding:15px;
+    justify-content: space-between;
+
+}
+.navbar div{
+
+   margin:10px;
+   height:auto;
+   width:100vw;
+
+   text-align: center;
+   align-items: center;
+
+}
+.navbar a{
+    color:white;
+}
+.navbar div:hover{
+    background-color:grey;
+}
+.background-img img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto; 
+    width: 100%; 
+}
+.about {
+    margin: 0 auto;
+    padding: 20px;
+    color:white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+   
+}
+#aboutp{
+    width:90%;
+    height:auto;
+    border-style: solid;
+    border-color: grey;
+    text-align:justify;
+    margin:0 auto;
+
+}
+.about h2 {
+    text-align: center; 
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block; 
+    margin: 0 auto; 
+    border-radius:10px;
+    margin-bottom:5%;
+}
+
+
+.about p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    color: #333;
+    text-align: center;
+}
+.menu{
+    margin: 0 auto;
+    padding: 20px;
+    color:white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+}
+.menu h2 {
+    text-align: center; 
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block; 
+    margin: 0 auto; 
+    border-radius:10px;
+    margin-bottom:5%;
+    
+    
+}
+.menucontainer{
+    width:80vw;
+    height:80vh;
+    margin:0 auto;
+    border-radius: 10px;
+    border-color:darkgrey;
+    border-style:solid;
+}
+.buttonmargin{
+    width:80vw;
+    height:6vh;
+    border-style: double;
+    border-color:darkgray;
+    display: flex;
+    justify-content:space-evenly;
+}
+.eat-btn, .drink-btn{
+    text-align: center;
+    padding: 10px;
+    width:20vw;
+    background-color: white;
+    border-color: white;
+    
+}
+.buttonmargin{
+    width:80vw;
+    height:6vh;
+    border-style: double;
+    border-color:darkgray;
+    display: flex;
+    justify-content:space-evenly;
+
+    
+
+}
+#eat-btn, #drink-btn{
+    text-align: center;
+    padding: 10px;
+    width:20vw;
+    background-color: white;
+    border-color: white;
+    
+}
+
+#eat, #drink {
+    text-align: left; 
+    margin: 0 auto;
+    width: 100%; 
+    max-width: 800px; 
+    color:black;
+    
+}
+#eat ul, #drink ul{
+    list-style-type: none;
+    padding: 50px;
+}
+#eat li, #drink li{
+    padding:5px;
+}
+.address{
+    margin: 0 auto;
+    padding: 20px;
+    color:white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+}
+.address h2 {
+    text-align: center; 
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block; 
+    margin: 0 auto; 
+    border-radius:10px;
+    margin-bottom:5%;
+}
+
+
+
+.address-img img{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    border-radius: 10px;
+    display: block;
+    margin:0 auto;
+
+}
+h6{
+    color:forestgreen;
+    padding: 10px;
+    display: inline-block; 
+    margin: 0 auto; 
+    font-size: medium;
+}
+h4{
+    padding-bottom: 20px;
+    text-align: center;
+}
+h3{
+    padding-bottom:20px ;
+    text-align: center;
+    color:darkgreen;
+}
+.others{
+    width:70vw;
+    height:29vh;
+    margin:0 auto;
+    border-radius: 10px;
+    border-color:darkgrey;
+    border-style:solid;
+}
+input[type=text],input[type=number],input[type=date],input[type=text]{
+    background-color:white;
+    border-color:grey ;
+    padding:16px 32px;
+    text-decoration: none;
+    cursor:pointer;
+    width:100%;
+}
+#msg{
+    text-align: center; 
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block; 
+    margin: 0 auto; 
+    border-radius:10px;
+    margin-top:5%;
+    margin-left:40%;
+}
+@media screen and (max-width: 768px) {
+    .navbar div {
+        width: auto;
+    }
+
+    #aboutp {
+        width:100%;
+    }
+
+    .address-img img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #aboutp {
+        padding: 10px;
+    }
+
+    .address-img img {
+        width: 100%;
+        height: auto;
+    }
+}
+    
